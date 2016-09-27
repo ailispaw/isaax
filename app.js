@@ -2,7 +2,7 @@ var fs = require('fs');
 
 var isOn = false;
 var count = 0;
-var maxCount = 10;
+var maxCount = 15;
 
 fs.writeFileSync('/sys/class/leds/led0/trigger', 'none');
 
